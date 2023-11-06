@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class CallGPT {
     private static final String API_URL = "https://api.openai.com/v1/chat/completions";
-    private static final String ApiKey = "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";
+    private static final String ApiKey = "yourkey";
     public JSONObject callGPT(String text) throws IOException {
         OkHttpClient client = new OkHttpClient();
 
